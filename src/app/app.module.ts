@@ -6,15 +6,15 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
 import { MovieService } from './movie.service';
-//import { MoviePosterComponent } from './movie-poster/movie-poster.component';
-//import { MoviePlotComponent } from './movie-plot/movie-plot.component';
+import { PosterComponent } from './poster/poster.component';
+import { MoviePlotComponent } from './movie-plot/movie-plot.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieListComponent,
- //   MoviePosterComponent,
- //   MoviePlotComponent
+    PosterComponent,
+    MoviePlotComponent,
   ],
   imports: [
     BrowserModule,
